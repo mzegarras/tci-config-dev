@@ -10,7 +10,12 @@ logging.level:
   #org.springframework.web: INFO
   #com.microsoft: ERROR
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+        
 server:
   port: 7070
 
