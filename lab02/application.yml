@@ -11,6 +11,12 @@ logging.level:
 server:
   port: 7071
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+        
 lab02:
   cache:
     host: cache
