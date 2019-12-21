@@ -3,10 +3,10 @@
 
 
 logging.level:
-  root: DEBUG
-  com.example.lab01.repository: DEBUG
-  org.springframework.jdbc.core: DEBUG
-  org.springframework.jdbc.core.StatementCreatorUtils: DEBUG
+  root: ERROR
+  com.example.lab01.repository: ERROR
+  org.springframework.jdbc.core: ERROR
+  org.springframework.jdbc.core.StatementCreatorUtils: ERROR
   #org.springframework.web: INFO
   #com.microsoft: ERROR
 
