@@ -15,7 +15,29 @@ management:
   endpoints:
     web:
       exposure:
-        include: health
+        include: health,metrics,prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    endpoint:
+      metrics:
+        enabled: true
+      prometheus:
+        enabled: true
+    enable:
+      root: false
+      jvm: true
+      
+opentracing:
+  jaeger:
+    enabled: true
+    enable-b3-propagation: true
+    log-spans: true
+    const-sampler:
+      decision: true
+    http-sender:
+      url: http://jaeger.istio-system.svc.cluster.local:14268/api/traces
         
 lab02:
   cache:
