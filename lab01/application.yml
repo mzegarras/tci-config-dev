@@ -4,11 +4,12 @@
 
 logging.level:
   root: INFO
-  com.example.lab01.repository: INFO
-  org.springframework.jdbc.core: INFO
-  org.springframework.jdbc.core.StatementCreatorUtils: INFO
+  com.example.lab01.repository: DEBUG
+  org.springframework.jdbc.core: DEBUG
+  org.springframework.jdbc.core.StatementCreatorUtils: DEBUG
   #org.springframework.web: INFO
   #com.microsoft: ERROR
+
 
 management:
   endpoints:
@@ -40,8 +41,7 @@ opentracing:
     udp-sender:
       host: jaeger-collector.istio-system.svc.cluster.local
       port: 6831
-
-
+      
 
 server:
   port: 7070
