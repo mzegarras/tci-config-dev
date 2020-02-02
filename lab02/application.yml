@@ -41,6 +41,7 @@ opentracing:
     udp-sender:
       host: jaeger-collector.istio-system.svc.cluster.local
       port: 6831
+      
 
 
 lab02:
