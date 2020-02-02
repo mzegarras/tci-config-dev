@@ -37,7 +37,7 @@ opentracing:
     const-sampler:
       decision: true
     http-sender:
-      url: http://jaeger.istio-system.svc.cluster.local:14268/api/traces
+      url: http://jaeger-agent.istio-system.svc.cluster.local/api/traces
         
 lab02:
   cache:
