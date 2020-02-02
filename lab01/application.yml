@@ -37,6 +37,7 @@ opentracing:
       decision: true
     http-sender:
       url: http://jaeger-agent.istio-system.svc.cluster.local/api/traces
+      
 
 server:
   port: 7070
