@@ -7,6 +7,7 @@ logging.level:
   com.example.lab01.repository: DEBUG
   org.springframework.jdbc.core: DEBUG
   org.springframework.jdbc.core.StatementCreatorUtils: DEBUG
+  io.opentracing.contrib: DEBUG
   #org.springframework.web: INFO
   #com.microsoft: ERROR
 
@@ -31,7 +32,7 @@ management:
 
 opentracing:
   jaeger:
-    probabilistic-sampler.sampling-rate: 1.0
+#    probabilistic-sampler.sampling-rate: 1.0
     serviceName: lab01
     enabled: true
     enable-b3-propagation: true
