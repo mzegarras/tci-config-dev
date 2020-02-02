@@ -39,9 +39,9 @@ opentracing:
       decision: true
     http-sender:
       url: http://jaeger-collector.istio-system.svc.cluster.local:14268/api/traces
-    udp-sender:
-      host: jaeger-agent.istio-system.svc.cluster.local
-      port: 6831
+#    udp-sender:
+#      host: jaeger-agent.istio-system.svc.cluster.local
+#      port: 6831
       
 
 server:
