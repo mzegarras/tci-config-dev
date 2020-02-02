@@ -31,6 +31,7 @@ management:
       
 opentracing:
   jaeger:
+    serviceName: lab02
     enabled: true
     enable-b3-propagation: true
     log-spans: true
@@ -41,7 +42,6 @@ opentracing:
     udp-sender:
       host: jaeger-agent.istio-system.svc.cluster.local
       port: 6831
-      
 
 
 lab02:
