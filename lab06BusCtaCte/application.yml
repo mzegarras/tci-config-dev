@@ -12,7 +12,7 @@ logging.level:
 
 opentracing:
   jaeger:
-    serviceName: lab06Mock
+    serviceName: lab06BusCtaCte
     enabled: true
     enable-b3-propagation: true
     log-spans: true
