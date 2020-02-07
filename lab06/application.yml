@@ -53,56 +53,10 @@ server:
   port: 7070
 
 
-lab01:
   features:
     crypto.key: 123456789012345678901234567890
     panicEnabled: false
-    smtp1:
-      host: gmail.com
-      cc:
-        - a@demo.com
-        - b@demo.com
-        - c@demo.com
-      port: 8080
-    smtp2:
-      host: gmail.com
-      cc:
-        - a@demo.com
-        - b@demo.com
-        - c@demo.com
-      port: 8080
-    apis:
-      - url: http://www.demo.com
-        credential:
-          user: admin
-          password: password
-        headers:
-          heade1: value1
-          heade2: value2
-          heade4: value4
-      - url: http://www.demo.com
-        credential:
-          user: admin
-          password: password
-        headers:
-          heade1: value1
-          heade2: value2
-          heade4: value4
-      - url: http://www.demo.com
-        credential:
-          user: admin
-          password: password
-        headers:
-          heade1: value1
-          heade2: value2
-          heade4: value4
-      - url: http://www.dem1o.com
-        credential:
-          user: admin
-          password: passwor1d
-        headers:
-          heade1: value1
-          heade2: value2
-          heade4: value4
-
-crypto.key: "keyvalue"
+    ctaCteApi:
+      url: http://lab06acectaaho:7070/accounts
+    ctaAhoApi:
+      url: http://lab06acectaaho:7071/accounts
