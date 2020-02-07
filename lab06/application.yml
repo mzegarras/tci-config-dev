@@ -58,6 +58,6 @@ lab01:
     crypto.key: 123456789012345678901234567890
     panicEnabled: false
     ctaCteApi:
-      url: http://lab06acectacte:7071/accounts
+      url: http://lab06acectaaho:7070/accounts
     ctaAhoApi:
-      url: http://lab06acectacte:7071/accounts
+      url: http://lab06acectacte:7070/accounts
