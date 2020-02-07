@@ -60,4 +60,4 @@ lab01:
     ctaCteApi:
       url: http://lab06acectaaho:7070/accounts
     ctaAhoApi:
-      url: http://lab06acectacte:7070/accounts
+      url: http://lab06acectaaho:7070/accounts
