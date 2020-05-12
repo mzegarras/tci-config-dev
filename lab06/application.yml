@@ -58,6 +58,6 @@ lab01:
     crypto.key: 123456789012345678901234567890
     panicEnabled: false
     ctaCteApi:
-      url: http://lab06apictactevs:7070/accounts
+      url: http://lab06apictactevs.default.svc.cluster.local:7070/accounts
     ctaAhoApi:
-      url: http://lab06apictaahovs:7070/accounts
+      url: http://lab06apictaahovs.default.svc.cluster.local:7070/accounts
