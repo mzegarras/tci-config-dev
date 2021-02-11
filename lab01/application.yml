@@ -16,7 +16,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,metrics,prometheus
+        include: '*'
+        #include: health,metrics,prometheus
   metrics:
     export:
       prometheus:
