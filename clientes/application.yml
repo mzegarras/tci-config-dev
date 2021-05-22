@@ -30,7 +30,7 @@ lab01:
     host: localhost
     port: 5672
     username: rabbitmq
-    password: rabbitmq
+    password: '{cipher}AgBkmmhJNlrOA7nNeRzu0gas8z9iWhp3VvMVP1drP2RzJMD1B3ZzkrXPBztlSTwBlAIXN8ikqjrhhUCRkFPTw7HG6kxsL52WciSvay4qVu7JLFK3NSbGZan4AAR1TDMveHSGUGOYf1TtQOhIvoSL2npu07GpX5dobOtlAO2FAfaEhRH+Si+aGiCa+h8onca8y7RAPasPQlXYj5bYoyNU7YBJPoIgDAgbiJ+EhUjUchgPx1U/vTPBFrFeKdRMj77vp59tZ1GAxVPZa6IAfRPVhvVXVSNECfHw+a3qFQtY9TvXGwO8GMia+3PINR+zcmwJ4/HjzEYQunhGpELPlio5TbVFvoiwBVk0aDvG0/GW967f7gHHAaFoQ/579yaHyPfDZZnoxu7/34qr8wiq4PIc9+VG7+/BVh5NcxgF7TwBUxOmVA1JEN5MSjViAg6GMacGjqu4WlINeakjVI4QFvpdHvle5CCfH4jOHF/iGOsTF/ngTKFMO19BR89UcMdWG9HivVJxA2oLPB1CFEvrreK0N0lr0cmuD/9ixG5TReyiVa2mxdrr2lH7pl73KEudV9weG6F6nPtRe2HopDLrvaxvI7mocoohnXeBt3bTJb6QBUjdFleXX3GRt2RA9p9fSL4iMIdPRxwluN6i05KXe7Doh7PB1ehH6H+nzIEBjRjsNTb+SXk33wjmR361VqZKZRNIIuuQNrc16tnQGITCDK3AoeXt'
   db01:
     url: jdbc:mysql://db:3306/db01?allowPublicKeyRetrieval=false&useSSL=true&requireSSL=true&serverTimezone=UTC&encrypt=true&autoReconnect=true
     username: lab01user
